@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  #formpage {
+    height: 100vh;
+    background-color: rgb(21, 21, 21);
+    color: white;
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+  }
+  #formbox > form {
+    height: 550px;
+    width: 630px;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  #formbox>form:hover{
+    transition: 0.3s ease-in-out;
+    box-shadow: 0px 0px 40px rgb(177, 170, 170);
+  }
+  #formpage > #formbox > h1 {
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+  }
+  #formbox > form > .allinput > input {
+    outline: none;
+    border: none;
+    height: 28px;
+    width: 270px;
+    padding: 0px 0px 0px 10px;
+    border-radius: 6px;
+  }
+  #formbox > form > .allinput > input:hover{
+    box-shadow: 0px 0px 20px rgb(177, 170, 170);
+  }
+  #formbox > form >#UploadIMage{
+    text-align: center;
+  }
+  #formbox > form > #UploadIMage>img:hover{
+    transition: 0.3s ease-in-out;
+    transform: scale(1.07);
+  }
+  #formbox > form > .allbutton > button {
+    font-size: 19px;
+    padding: 10px 40px;
+    background-color: transparent;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    box-shadow: 0px 0px 1px white;
+  }
+  #formbox > form > .allbutton > button:hover {
+    transition: 0.3s ease-in-out;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 40px rgb(177, 170, 170);
+  }
+  .placeholder-color--danger::placeholder {
+    color: red;
+  }
+  #input-email--error {
+    color: red;
+    font-size: 15px;
+    margin-top: 5px;
+  }

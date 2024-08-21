@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  #user {
+    height: 100vh;
+    background-color: rgb(21, 21, 21);
+    font-size: 19px;
+    position: relative;
+    top: 80px;
+  }
+  #user>#changeFormat{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 3;
+    a{
+      text-decoration: none;
+    color: white;
+    font-size: 25px;
+    box-shadow: 0px 0px 1px white;
+    /* margin: 0px 20px; */
+    }
+    #leftButton{
+      color: black;
+      background-color: white;
+      padding: 7px 20px 7px 25px;
+      border-top-left-radius: 25px;
+      border-bottom-left-radius: 25px;
+      box-shadow: 0px 0px 10px white;
+    }
+    #rightButton{
+      padding: 7px 35px 7px 30px;
+      border-top-right-radius: 25px;
+      border-bottom-right-radius: 25px;
+    }
+  }
+  #user >#accounts{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    top: 100px;
+  }
+  #user >#accounts>a{
+    text-decoration: none;
+    color: white;
+  }
+  #user >#accounts>a> #cards {
+    height: 280px;
+    width: 260px;
+    padding: 15px;
+    margin: 15px 0px 20px 0px;
+    border:none;
+    box-shadow: 0px 0px 1px white;
+    border-radius: 6px;
+    overflow-y: scroll;
+    overflow-x: scroll;
+  }
+  #user >#accounts>a> #cards:hover{
+    transition: 0.3s ease-in-out;
+    transform: scale(1.03);
+    box-shadow: 0px 0px 50px rgb(177, 170, 170)
+  }
+  #user >#accounts>a> #cards > #btns > a > button {
+    font-size: 16px;
+    padding: 8px 25px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin: 0px 6px 0px 6px;
+    box-shadow: 0px 0px 1px white;
+  }
+  #user >#accounts>a> #cards > #btns > button {
+    font-size: 16px;
+    padding: 8px 25px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin: 0px 6px 0px 6px;
+    box-shadow: 0px 0px 1px white;
+  }
+  #user >#accounts>a> #cards > #btns > a > button:hover {
+    transition: 0.3s ease-in-out;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px rgb(177, 170, 170);
+  }
+  #user >#accounts>a> #cards > #btns > button:hover {
+    transition: 0.3s ease-in-out;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px rgb(177, 170, 170);
+  }
+  ::-webkit-scrollbar {
+    width: 0px;
+  }

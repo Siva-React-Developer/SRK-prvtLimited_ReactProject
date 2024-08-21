@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#wel > #navbar {
+  height: 80px;
+  width: 100%;
+  font-size: 19px;
+  color: white;
+  background-color: rgb(21, 21, 21);
+  border-bottom: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 3;
+}
+#wel > #navbar > #navleft {
+  margin: 0px 0px 0px 40px;
+}
+#wel > #navbar > #navleft > #logo {
+  height: 40px;
+  width: 120px;
+}
+#wel > #navbar > #navright > a {
+  position: relative;
+  margin: 0px 30px 0px 0px;
+  text-decoration: none;
+  color: white;
+}
+#wel > #navbar > #navright > a::after{
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  transform: scaleX(0);
+  transform-origin: bottom left;
+  transition: transform 0.3s ease-in-out;
+}
+#wel > #navbar > #navright > a:hover::after{
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+/* #wel > #btns > button {
+  font-size: 25px;
+  padding: 12px 35px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 8px;
+  margin: 0px 10px 0px 10px;
+  box-shadow: 0px 0px 10px white;
+}
+#wel > #btns > button:hover {
+  transform: scale(1.1);
+}
+#wel > #btns > button > a {
+  text-decoration: none;
+  color: white;
+} */

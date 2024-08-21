@@ -1,0 +1,280 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#bg {
+  height: 800vh;
+  background-color: rgb(21, 21, 21);
+}
+#bg > #line1 {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+  color: white;
+  /* border: 1px solid white; */
+  padding: 20px 0px 0px 0px;
+  position: relative;
+  top: 80px;
+}
+#bg > #line1 > #title {
+  height: 400px;
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  /* border: 1px solid white; */
+  font-size: 6rem;
+}
+#bg > #line1>#title>p{
+  z-index: 2;
+}
+#bg > #line1 > #titlecontent {
+  height: 400px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  font-size: 1.5rem;
+  z-index: 2;
+  /* border: 1px solid white; */
+}
+#bg > #cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  color: white;
+  margin: 100px 0px 0px 0px;
+}
+#bg > #cards >a{
+  text-decoration: none;
+}
+#bg > #cards >a> #card1 {
+  height: 450px;
+  width: 300px;
+  padding: 15px;
+  color: white;
+  /* border: 1px solid white; */
+  /* box-shadow: 0px 0px 10px white; */
+  border-radius: 5px;
+  margin: 40px 10px 0px 10px;
+  p,
+  button {
+    display: none;
+  }
+}
+#bg > #cards >a> #card1:hover {
+  transform: scale(1.03);
+  p,
+  button {
+    display: block;
+  }
+}
+#bg > #cards >a> #card1 > dl > dt {
+  font-size: 22px;
+}
+#bg > #cards >a> #card1 > dl > dd {
+  font-size: 30px;
+}
+#bg > #cards >a> #card1 > p {
+  font-size: 19px;
+}
+#bg > #cards >a> #card1 > a {
+  text-decoration: none;
+}
+#bg > #cards >a> #card1 > button {
+  cursor: pointer;
+  border: none;
+  font-size: 20px;
+  color: white;
+  padding: 5px 10px;
+  margin: 20px 86px;
+  border-bottom: 1px solid white;
+  background-color: transparent;
+}
+#bg > #cotetion {
+  margin: 200px 0px 0px 0px;
+  color: white;
+}
+#bg > #cotetion > p {
+  text-align: center;
+  font-size: 8rem;
+  font-weight: bold;
+}
+#bg > #cotetion > h1 {
+  text-align: center;
+}
+#bg > #scrollingInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 200px 0px 0px 0px;
+}
+#bg > #scrollingInfo > #Image > img {
+  height: 500px;
+  width: 800px;
+  border: 1px solid white;
+}
+#bg > #scrollingInfo > #Image > button {
+  font-size: 18px;
+  padding: 5px 20px;
+  margin: 0px 10px 0px 10px;
+  color: white;
+  background-color: transparent;
+  box-shadow: 0px 0px 1px white;
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  top: 30px;
+  left: 300px;
+}
+#bg > #scrollingInfo > #Image > button:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 40px rgb(177, 170, 170);
+}
+#bg > #scrollingInfo > #Content {
+  height: 280px;
+  width: 452px;
+  /* border: 1px solid white; */
+  color: white;
+  padding: 15px;
+  overflow: scroll;
+}
+#bg > #scrollingInfo > #Content > p {
+  font-size: 20px;
+}
+#bg > #cotetion2 {
+  color: white;
+  position: sticky;
+  top: 260px;
+}
+#bg > #cotetion2 > p {
+  font-size: 7rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 300px 0px 0px 0px;
+}
+#bg > #animecard1 {
+  color: white;
+  height: 300px;
+  width: 400px;
+  padding: 20px;
+  background-color: rgb(255, 0, 208);
+  position: relative;
+  /* top: 50px;
+  left: 1000px; */
+  margin: 50px 0px 0px 1000px;
+  overflow: hidden;
+  h2 {
+    font-size: 30px;
+    margin: 20px 0px 0px 0px;
+  }
+}
+#bg > #animecard1 > #animecard1info {
+  margin: 100px 0px 0px 0px;
+}
+#bg > #animecard1 > #animecard1info > p {
+  font-size: 20px;
+  color: transparent;
+}
+#bg > #animecard1:hover {
+  #animecard1info > p {
+    color: white;
+    transition: 1s;
+    transform: translatey(-100px);
+  }
+  h2 {
+    transition: 1s;
+    color: transparent;
+  }
+}
+#bg > #animecard2 {
+  color: white;
+  height: 300px;
+  width: 400px;
+  padding: 20px;
+  background-color: rgb(0, 106, 255);
+  position: relative;
+  /* top: 200px;
+  left: 130px; */
+  margin: 200px 0px 0px 130px;
+  overflow: hidden;
+  h2 {
+    font-size: 30px;
+    margin: 20px 0px 0px 0px;
+  }
+}
+#bg > #animecard2 > #animecard2info {
+  margin: 100px 0px 0px 0px;
+}
+#bg > #animecard2 > #animecard2info > p {
+  font-size: 20px;
+  color: transparent;
+}
+#bg > #animecard2:hover {
+  #animecard2info > p {
+    color: white;
+    transition: 1s;
+    transform: translatey(-100px);
+  }
+  h2 {
+    transition: 1s;
+    color: transparent;
+  }
+}
+#bg > #animecard3 {
+  color: white;
+  height: 300px;
+  width: 400px;
+  padding: 20px;
+  background-color: rgb(255, 0, 0);
+  position: relative;
+  /* top: 350px;
+  left: 1000px; */
+  margin: 200px 0px 0px 1000px;
+  overflow: hidden;
+  h2 {
+    font-size: 30px;
+    margin: 20px 0px 0px 0px;
+  }
+}
+#bg > #animecard3 > #animecard3info {
+  margin: 100px 0px 0px 0px;
+}
+#bg > #animecard3 > #animecard3info > p {
+  font-size: 20px;
+  color: transparent;
+}
+#bg > #animecard3:hover {
+  #animecard3info > p {
+    color: white;
+    transition: 1s;
+    transform: translatey(-100px);
+  }
+  h2 {
+    transition: 1s;
+    color: transparent;
+  }
+}
+#bg > #Marquee > #NewsContent {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#bg > #Marquee > #NewsContent > #news {
+  height: 100px;
+  /* width: 600px; */
+  margin: 0px 20px;
+  
+  background-color: yellow;
+}
+
+#Marquee {
+  margin: 0 30px;
+}
+ 

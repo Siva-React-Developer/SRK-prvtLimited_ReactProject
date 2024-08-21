@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#profilePage {
+  height: 89vh;
+  background-color: rgb(21, 21, 21);
+  color: white;
+  font-size: 19px;
+}
+#profilePage>#IntoprofilePage{
+  height: 71vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#profilePage>#IntoprofilePage>#profileImage{
+  text-align: center;
+  img{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+  }
+  p{
+    font-size: 35px;
+    font-weight: bolder;
+    margin: 15px 0px 0px 0px;
+  }
+}
+#profilePage > p {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 500;
+}
+#profilePage >#IntoprofilePage> #profileCard {
+  height: 450px;
+  width: 650px;
+  padding: 15px;
+  /* text-align: center; */
+  word-spacing: 4px;
+  letter-spacing: 2px;
+  /* border: 1px solid white; */
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px white;
+  overflow-y: scroll;
+    overflow-x: scroll;
+}
+#profilePage >#IntoprofilePage> #profileCard > #btns > a > button {
+  font-size: 18px;
+  padding: 10px 30px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 8px;
+  margin: 0px 6px 0px 6px;
+  box-shadow: 0px 0px 10px white;
+}
+#profilePage >#IntoprofilePage> #profileCard > #btns > button {
+  font-size: 18px;
+  padding: 10px 30px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 8px;
+  margin: 0px 6px 0px 6px;
+  box-shadow: 0px 0px 10px white;
+}
+#profilePage >#IntoprofilePage> #profileCard > #btns > a > button:hover {
+  transform: scale(1.1);
+}
+#profilePage >#IntoprofilePage> #profileCard > #btns > button:hover {
+  transform: scale(1.1);
+}
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0;
+}
