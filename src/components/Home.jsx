@@ -25,51 +25,51 @@ const Home = () => {
       title: "SRK's limited responsible AI blueprint",
       content:
         "Accenture has operationalized ethical AI in our company. Now, our responsible AI program is also helping clients around the world use AI intelligently and responsibly.",
-      Image: "/Accenture-blueprint-for-responsible-AI_rad-3x2.webp",
+      Image: "/Accenture1.webp",
     },
     {
       title: "The metaverse meets public good",
       content:
         "The World Economic Forum, SRK's limited and Microsoft have built a purpose-driven platform in the metaverse to drive action and cooperation and to revolutionize progress.",
-      Image: "/Accenture-Metaverse-Collaboration-Hero-1920x1080_rad-3x2.webp",
+      Image: "/Accenture2.webp",
     },
     {
       title: "Cybersecurity in orbit",
       content:
         "As outer space gets more crowded and contested, QuSecure is protecting communications and data transmission with the agility required for the world of post-quantum computing.",
-      Image: "/Cybersecurity-in-orbit-Not-Used_rad-3x2.webp",
+      Image: "/Accenture3.webp",
     },
     {
       title: "Generative AI transforming customer service",
       content:
         "Sifting through thousands of emails daily is tedious work, but generative AI makes it easy. A multinational bank is using generative AI to quickly process and respond to client emails used for the settling, asset servicing and reconciliation of trades – normally a massive manual task. It directs emails to the right teams and drafts responses for employees to check. The result? Faster and more enjoyable customer service, a boost in worker efficiency and more cost-effective operations.",
-      Image: "/Accenture-Barlcays-Generative-AI_rad-3x2.jpg",
+      Image: "/Accenture4.jpg",
     },
     {
       title: "Mondelēz International’s Data and AI Transformation",
       content:
         "The global snacking giant is laying a tasty foundation for reinvention and growth. Accenture is helping Mondelēz International to embrace the power of data and AI, build a strong digital core and implement interoperable cloud-enabled technology.",
-      Image: "/Accenture-Father-Daughter-Breakfast-768x768_rad-3x2.jpg",
+      Image: "/Accenture5.jpg",
     },
     {
       title: "Creating a sense of belonging",
       content:
         "A global retailer and Accenture co-created a multiyear inclusion and diversity strategy to facilitate a greater sense of belonging for their people.",
-      Image: "/Accenutre-Woman-Smiling-With-Other-Woman-768x432_rad-3x2.webp",
+      Image: "/Accenture6.webp",
     },
     {
       title: "Egg gives electric vehicle charging a jolt",
       content:
         "Seeking sustainability, more people are buying electric vehicles. To keep them powered up, Liberty Global and Accenture developed Egg, a renewable energy brand that makes installing home EV chargers easy and affordable.",
       Image:
-        "/Accenture-Liberty-Global-Egg-Electric-Vehicle-Charging-640x425_rad-3x2.webp",
+        "/Accenture7.webp",
     },
     {
       title: "Reimagining Saudi Arabia’s economy",
       content:
         "In just five years, the Saudi Data and Artificial Intelligence Authority, in partnership with Accenture, has built a strong foundation for a globally competitive, data- and AI-driven economy.",
       Image:
-        "/reimagining-saudi-arabia-economy-glanceskim-640x452_rad-3x2.webp",
+        "/Accenture8.webp",
     },
   ];
   let News = [

@@ -385,7 +385,7 @@ const SignUp = () => {
             />
           </div>
           <div id={style.UploadIMage}>
-            <img id="UploadIMage" src="/image_icon_153794.png" alt="" style={{height:"50px",width:"50px",cursor:"pointer"}} onClick={uploadPic}/>
+            <img id="UploadIMage" src="/ImageUpload.png" alt="" style={{height:"50px",width:"50px",cursor:"pointer"}} onClick={uploadPic}/>
             <br />
             <label htmlFor="UploadIMage">Upload Your Image</label>
             <input type="file" ref={uploadImage} onChange={getImage} style={{display:"none"}}/>

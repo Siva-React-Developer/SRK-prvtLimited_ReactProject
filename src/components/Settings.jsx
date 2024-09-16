@@ -14,7 +14,7 @@ const Settings = () => {
     <div id={style.settingPage}>
       <aside>
       <div id={style.profile}>
-          <img src="/1705579082719 (2).jpg" alt="" />
+          <img src="/AccountProfile.jpg" alt="" />
           <div id={style.profileName}>
             <p>Dasu Sivarama Krishna</p>
             <p>sivarmdasu35@gmail.com</p>
@@ -41,7 +41,7 @@ const Settings = () => {
           <p>Home</p>
           <nav>
             <div id={style.left}>
-              <img src="/Accenture-blueprint-for-responsible-AI_rad-3x2.webp" alt="" />
+              <img src="/Accenture1.webp" alt="" />
               <div>
                 <h3>DESKTOP-FIFF8V8</h3>
                 <p>inspiron 15 3525</p>
@@ -49,7 +49,7 @@ const Settings = () => {
               </div>
             </div>
             <div id={style.right}>
-              <img src="/icons8-wifi-48.png" alt="" />
+              <img src="/WifiIcon.png" alt="" />
               <div>
                 <h4>Delux PG 4th floor_5G</h4>
                 <p>Connected,Secured</p>
@@ -63,20 +63,20 @@ const Settings = () => {
               <p>Recently and commonly used settings</p>
             </div>
             <div className={style.recentsett2}>
-              <img src="/settings_14450.png" alt="" />
+              <img src="/SettingIcon.png" alt="" />
               <p>Taskbar</p>
             </div>
             <div className={style.recentsett2}>
-            <img src="/settings_14450.png" alt="" />
+            <img src="/SettingIcon.png" alt="" />
             <p>Sound</p>
             </div>
             <div className={style.recentsett2}>
-            <img src="/settings_14450.png" alt="" />
+            <img src="/SettingIcon.png" alt="" />
             <p>Installed apps</p>
             </div>
             </div>
             <div id={style.cloudStorage}>
-              <img src="/icons8-cloud-64.png" alt="" />
+              <img src="/CloudIcon.png" alt="" />
               <h3>Cloud Storage</h3>
               <p>Make sure your signed in with sivaramdau35@gmail.com so you can see your storage detailes here.</p>
               <Link to=""><button>Sign to OneDrive</button></Link>

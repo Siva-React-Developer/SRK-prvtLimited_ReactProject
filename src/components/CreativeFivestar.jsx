@@ -55,14 +55,14 @@ const CreativeFivestar=()=>{
                 <br />
                 <h3>{director1}</h3>
                 <h3 style={{fontWeight:"lighter",color:"gray"}}>{director1Info}</h3>
-                <img style={{height:"25px",width:"25px",margin:"20px 0px"}} src="/linkedin_socialnetwork_17441.png" alt="" />
+                <img style={{height:"25px",width:"25px",margin:"20px 0px"}} src="/LinkedinIcon.png" alt="" />
                 <h3>{director2}</h3>
                 <h3 style={{fontWeight:"lighter",color:"gray"}}>{director2Info}</h3>
-                <img style={{height:"25px",width:"25px",margin:"20px 0px"}} src="/linkedin_socialnetwork_17441.png" alt="" />
+                <img style={{height:"25px",width:"25px",margin:"20px 0px"}} src="/LinkedinIcon.png" alt="" />
                 <br />
                 <h3>{director3}</h3>
                 <h3 style={{fontWeight:"lighter",color:"gray"}}>{director3Info}</h3>
-                <img style={{height:"25px",width:"25px",margin:"20px 0px"}} src="/linkedin_socialnetwork_17441.png" alt="" />
+                <img style={{height:"25px",width:"25px",margin:"20px 0px"}} src="/LinkedinIcon.png" alt="" />
             </div>
             </div>
             <div id={style.imagecontent}>
