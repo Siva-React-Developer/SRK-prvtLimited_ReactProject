@@ -4,10 +4,12 @@
   box-sizing: border-box;
 }
 #profilePage {
-  height: 89vh;
+  height: 90vh;
   background-color: rgb(21, 21, 21);
   color: white;
   font-size: 19px;
+  position: relative;
+  top: 80px;
 }
 #profilePage>#IntoprofilePage{
   height: 71vh;
@@ -32,6 +34,7 @@
   text-align: center;
   font-size: 3rem;
   font-weight: 500;
+  padding: 20px 0px 0px 0px;
 }
 #profilePage >#IntoprofilePage> #profileCard {
   height: 450px;
@@ -51,26 +54,30 @@
   padding: 10px 30px;
   background-color: transparent;
   color: white;
-  border: 1px solid white;
+  border: none;
   border-radius: 8px;
   margin: 0px 6px 0px 6px;
-  box-shadow: 0px 0px 10px white;
+  box-shadow: 0px 0px 2px rgb(177, 170, 170);
+  transition: 0.3s ease;
 }
 #profilePage >#IntoprofilePage> #profileCard > #btns > button {
   font-size: 18px;
   padding: 10px 30px;
   background-color: transparent;
   color: white;
-  border: 1px solid white;
+  border: none;
   border-radius: 8px;
-  margin: 0px 6px 0px 6px;
-  box-shadow: 0px 0px 10px white;
+  margin: 0px 6px 0px 15px;
+  box-shadow: 0px 0px 2px rgb(177, 170, 170);
+  transition: 0.3s ease;
 }
 #profilePage >#IntoprofilePage> #profileCard > #btns > a > button:hover {
   transform: scale(1.1);
+  box-shadow: 0px 0px 30px rgb(177, 170, 170);
 }
 #profilePage >#IntoprofilePage> #profileCard > #btns > button:hover {
   transform: scale(1.1);
+  box-shadow: 0px 0px 30px rgb(177, 170, 170);
 }
 ::-webkit-scrollbar {
   width: 0px;
