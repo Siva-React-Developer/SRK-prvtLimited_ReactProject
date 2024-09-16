@@ -132,7 +132,7 @@ const Home = () => {
     <div id={style.bg}>
       <div id={style.line1}>
         <div id={style.title}>
-        <video controls autoPlay loop muted height={400} width={800} style={{position:"absolute"}} src="3045163-hd_1920_1080_25fps.mp4"></video>
+        <video controls autoPlay loop muted height={400} width={800} style={{position:"absolute"}} src="/BackgroundVideo.mp4"></video>
           <p>
             TOGETHER WE
             <br />REINVENTED

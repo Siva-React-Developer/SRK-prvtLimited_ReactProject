@@ -32,10 +32,6 @@ const App = () => {
           <Route element={<SettingHome />} path="/SettingHome" />
           <Route element={<SettingSystem />} path="/SettingSystem" />
           <Route element={<Lists />} path="/Lists" />
-          {/* <Route element={<Lists />} path="/Lists" />
-          <Route element={<Lists />} path="/Lists" />
-          <Route element={<Lists />} path="/Lists" />
-          <Route element={<Lists />} path="/Lists" /> */}
         </Routes>
       </BrowserRouter>
     </div>
